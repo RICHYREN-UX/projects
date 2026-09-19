@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans", Arial, sans-serif;
+    background: #f3f7f2;
+    color: #1d2b20;
+}
+
+.auth-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+
+    background:
+        linear-gradient(
+            rgba(19, 65, 39, 0.92),
+            rgba(19, 65, 39, 0.92)
+        ),
+        url("../images/WhatsApp Image 2026-09-17 at 19.11.36.jpeg");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.auth-card {
+    width: 100%;
+    max-width: 480px;
+
+    background: #ffffff;
+
+    padding: 42px;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 20px 60px rgba(0, 0, 0, 0.25);
+}
+
+.auth-logo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.auth-logo i {
+    font-size: 42px;
+    color: #1f7a45;
+    margin-bottom: 10px;
+}
+
+.auth-logo h1 {
+    font-family: "Manrope", sans-serif;
+    font-size: 25px;
+    color: #183b27;
+}
+
+.auth-logo h1 span {
+    color: #2f9b59;
+}
+
+.auth-logo p {
+    margin-top: 7px;
+    color: #777;
+    font-size: 13px;
+}
+
+.auth-card h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.auth-subtitle {
+    text-align: center;
+    color: #777;
+    margin-bottom: 28px;
+}
+
+.input-group {
+    margin-bottom: 18px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+.input-wrapper i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #5f806b;
+}
+
+.input-wrapper input {
+    width: 100%;
+    padding: 14px 15px 14px 45px;
+
+    border: 1px solid #d8e1da;
+    border-radius: 10px;
+
+    font-size: 15px;
+
+    outline: none;
+}
+
+.input-wrapper input:focus {
+    border-color: #2f9b59;
+    box-shadow: 0 0 0 3px rgba(47, 155, 89, 0.12);
+}
+
+.auth-btn {
+    width: 100%;
+    border: none;
+
+    padding: 15px;
+
+    border-radius: 10px;
+
+    background: #1f7a45;
+    color: white;
+
+    font-size: 16px;
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.auth-btn:hover {
+    background: #176337;
+}
+
+.auth-switch {
+    text-align: center;
+    margin-top: 22px;
+    color: #777;
+}
+
+.auth-switch a {
+    color: #1f7a45;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.back-home {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+
+    color: #555;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.back-home:hover {
+    color: #1f7a45;
+}
+
+#loginMessage,
+#registerMessage {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+@media (max-width: 500px) {
+
+    .auth-card {
+        padding: 30px 22px;
+    }
+
+    .auth-card h2 {
+        font-size: 24px;
+    }
+
+}

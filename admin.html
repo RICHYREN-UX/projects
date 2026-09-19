@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - Sesai Vetcare</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Sesai Vetcare Admin</h1>
+    <p>Appointment Requests</p>
+  </header>
+
+  <main>
+    <h2>All Appointments</h2>
+
+    <div id="adminMessage"></div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Customer</th>
+          <th>Phone</th>
+          <th>Animal</th>
+          <th>Service</th>
+          <th>Date</th>
+          <th>Time</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+
+      <tbody id="appointmentsTable">
+        <tr>
+          <td colspan="7">Loading appointments...</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>

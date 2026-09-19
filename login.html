@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Login | Sesai Vetcare</title>
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/auth.css">
+
+</head>
+
+<body>
+
+    <div class="auth-page">
+
+        <div class="auth-card">
+
+            <div class="auth-logo">
+
+                <i class="fa-solid fa-paw"></i>
+
+                <h1>
+                    SESAI <span>VETCARE</span>
+                </h1>
+
+                <p>
+                    Healthy Animals • Prosperous Communities
+                </p>
+
+            </div>
+
+
+            <h2>Welcome Back</h2>
+
+            <p class="auth-subtitle">
+                Login to access your Sesai Vetcare account.
+            </p>
+
+
+            <form id="loginForm">
+
+                <div class="input-group">
+
+                    <label for="email">
+                        Email Address
+                    </label>
+
+                    <div class="input-wrapper">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Enter your email"
+                            required>
+
+                    </div>
+
+                </div>
+
+
+                <div class="input-group">
+
+                    <label for="password">
+                        Password
+                    </label>
+
+                    <div class="input-wrapper">
+
+                        <i class="fa-solid fa-lock"></i>
+
+                        <input
+                            type="password"
+                            id="password"
+                            placeholder="Enter your password"
+                            required>
+
+                    </div>
+
+                </div>
+
+
+                <button type="submit" class="auth-btn">
+                    Login
+                </button>
+
+                <div id="loginMessage"></div>
+
+            </form>
+
+
+            <p class="auth-switch">
+
+                Don't have an account?
+
+                <a href="register.html">
+                    Create Account
+                </a>
+
+            </p>
+
+
+            <a href="index.html" class="back-home">
+
+                <i class="fa-solid fa-arrow-left"></i>
+
+                Back to Website
+
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <script src="js/auth.js"></script>
+
+</body>
+
+</html>
